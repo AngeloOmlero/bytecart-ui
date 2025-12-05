@@ -5,7 +5,7 @@
         <!-- Brand -->
         <div>
           <h3 class="text-lg font-bold text-gray-900">ByteCart</h3>
-          <p class="mt-2 text-sm text-gray-600">A minimalist e-commerce experience.</p>
+          <p class="mt-2 text-sm text-gray-600">Bytes of Happiness in Every Cart.</p>
         </div>
 
         <!-- Links -->

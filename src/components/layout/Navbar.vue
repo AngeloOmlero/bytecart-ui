@@ -3,8 +3,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
-        <RouterLink to="/products" class="text-2xl font-bold text-gray-900 hover:text-gray-700">
-          ByteCart
+
+        <RouterLink to="/" class="flex items-center gap-1">
+          <img :src="logo" alt="ByteCart Logo" class="h-14 w-15" />
+          <span class="text-2xl font-bold text-gray-900 hover:text-gray-700"> ByteCart </span>
         </RouterLink>
 
         <!-- Nav Links -->
@@ -90,6 +92,7 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '@/stores/auth'
 import { useCartStore } from '@/stores/cart'
+import logo from '@/asset/byte-cart-logo.png'
 
 const router = useRouter()
 const authStore = useAuthStore()
